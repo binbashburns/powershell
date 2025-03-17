@@ -873,3 +873,4 @@ Do not run the above Kerberos commands on a customer’s network unless they giv
 To display the full message for event logs, use the Format-List cmdlet and -wrap switch parameter. Remember to use exclusion statements and sorting to limit the amount of results. Log messages contain a lot of information and just a couple of logs will fill your entire PowerShell window.
 
 PowerShell allows for running commands on remote computers as well as connecting to remote machines.
+
