@@ -46,3 +46,9 @@ Get-NetTCPConnection | Where-Object OwningProcess -eq $id3 | Select-Object -Prop
 
 ########################################################
 
+# To transfer a file from one machine to another:
+# On the host you want to transfer a file TO by PULLING it:
+scp student@<target-host-ip:C:\Users\Administrator\Desktop\DebuggerPE.ps1> .
+
+# If you want to copy from LOCAL and PUSH to REMOTE:
+scp .\DebuggerPE.ps1 student@<target-host-ip:C:\Users\Administrator\Desktop\DebuggerPE.ps1> .
